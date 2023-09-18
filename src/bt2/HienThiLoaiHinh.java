@@ -11,7 +11,7 @@ public class HienThiLoaiHinh {
             System.out.println("1. Hiển thị tam giác vuông");
             System.out.println("2. Hiển thị hình chữ nhật");
             System.out.println("3. Hiển thị hình tam giác cân");
-            System.out.println("3. Thoát");
+            System.out.println("4. Thoát");
             System.out.print("Nhập lựa chọn của bạn: ");
             choice = input.nextInt();
 
