@@ -19,6 +19,6 @@ public class Main {
             }
         }
         // Bước 3: Hiển thị tổng
-        System.out.println("Tổng các số chẵn trong khoảng từ " + start + " đến " + end + " là: " + total);
+        System.out.println("Tổng các số chẵn trong khoảng từ " + dau + " đến " + cuoi + " là: " + total);
     }
 }
