@@ -15,6 +15,9 @@ public class TimSoNhoNhatChiaHetCho357 {
 
     // Hàm kiểm tra xem một số có chia hết cho 5, 7 và 11 hay không
     public static boolean isDivisibleBy357(int n) {
-        return (n % 5 == 0) && (n % 7 == 0) && (n % 11 == 0);
+        if ((n % 5 == 0) && (n % 7 == 0) && (n % 11 == 0)) {
+            return true;
+        }
+        return false;
     }
 }
