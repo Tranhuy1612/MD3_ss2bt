@@ -32,7 +32,7 @@ public class HienThiLoaiHinh {
                     System.out.println("Lựa chọn không hợp lệ. Vui lòng chọn lại.");
                     break;
             }
-        } while (choice != 3);
+        } while (choice != 4);
     }
 
     // Hiển thị tam giác vuông
