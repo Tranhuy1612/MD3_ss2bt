@@ -9,7 +9,6 @@ public class HienThiSoNguyenTo {
             }
         }
     }
-    // Hàm kiểm tra xem một số có phải là số nguyên tố hay không
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;

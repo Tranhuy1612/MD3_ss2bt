@@ -2,9 +2,9 @@ package bt4;
 
 public class HienThi20SoNguyenToDauTien {
     public static void main(String[] args) {
-        int numbers = 20; // Số lượng số nguyên tố cần hiển thị
-        int count = 0;   // Biến đếm số lượng số nguyên tố đã hiển thị
-        int N = 2;       // Giá trị đang kiểm tra
+        int numbers = 20;
+        int count = 0;
+        int N = 2;
 
         System.out.println("Các " + numbers + " số nguyên tố đầu tiên là:");
 
@@ -16,8 +16,6 @@ public class HienThi20SoNguyenToDauTien {
             N++;
         }
     }
-
-    // Hàm kiểm tra xem một số có phải là số nguyên tố hay không
     public static boolean isPrime(int n) {
         if (n <= 1) {
             return false;
