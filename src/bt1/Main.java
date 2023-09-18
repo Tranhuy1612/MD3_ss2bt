@@ -12,7 +12,7 @@ public class Main {
         int total = 0;
         for (int number = dau; number <= cuoi; number++) {
             if (number % 2 == 0) {
-                total += number;
+               total = total + number;
             }
         }
         System.out.println("Tổng các số chẵn trong khoảng từ " + dau + " đến " + cuoi + " là: " + total);
